@@ -1,0 +1,40 @@
+.Nav{
+height:70px;
+background:linear-gradient(170deg, rgb(76, 228, 76),rgb(34, 34, 190));
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+;}
+
+.title{
+font-size: 30px;
+color: #fff;
+font-weight: 600;
+font-family:'Montserraat',sans-serif;
+text-transform: uppercase;
+margin-left:20px;
+&:hover{color : #0f0}
+;}
+
+.img{
+height: 48px;
+margin-right: 20px;
+}
+
+.cartContainer{
+position:relative;
+cursor:pointer;
+}
+
+
+.cartCount{
+background-color:"orange";
+border-radius: 50%;
+padding:4px 8px;
+position:absolute;
+right:10px;
+top:-5px;
+font-size:12px;
+;
+}
